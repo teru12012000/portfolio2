@@ -16,7 +16,7 @@ const Aboutme:FC<Props> = async({myFaceUrl}) => {
       <>
         <Image
           src={(await myFaceUrl).url} 
-          alt={(await myFaceUrl).detail}
+          alt={(await myFaceUrl).title}
           width={200}
           height={200}
           className={styles.imageBox}

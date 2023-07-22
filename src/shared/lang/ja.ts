@@ -8,6 +8,7 @@ export default{
     profile:"茨城県出身、東京都在住でエンジニアのTERUSHIです。2023年3月まで東京理科大学に在学し情報工学を学びました。2023年4月からエンジニアとして働いています。"
   },
   skills:{
-    title:"SKILLS"
+    title:"SKILLS",
+    subtitle1:"TECHNICAL AREA",
   }
 }

@@ -1,4 +1,5 @@
 export type pictureType={
+  title:string;
   url:string;
-  detail:string;
+  detail:string|undefined;
 }
