@@ -7,7 +7,8 @@ import { getURL } from '@/shared/functions';
 
 export default async function Home() {
   const faceUrl=getURL(firebaseData.myFace.collectionName);
-  const skillKindURL=getURL(firebaseData.skillKind.collectionName);
+  const skillKindURL=getURL(firebaseData.skillKind.collectionName1);
+  const skillLanguageURL=getURL(firebaseData.skillKind.collectionName2);
   return (
     <>
       <Aboutme
@@ -15,6 +16,7 @@ export default async function Home() {
       />
       <Skils
         skillKindURL={skillKindURL.then(doc=>doc.URL)}
+        skillRepresentationURL={skillLanguageURL.then(doc=>doc.URL)}
       />
     </>
   )

@@ -9,6 +9,8 @@ const styles={
     padding:20,
     height:460,
     margin:10,
+    display:"inline-block",
+    verticalAlign: "top",
   }),
   imgZone:style({
     width:"100%",

@@ -4,6 +4,7 @@ export default{
     collectionName:'myFace'
   },
   skillKind:{
-    collectionName:'skill_kind'
+    collectionName1:'skill_kind',
+    collectionName2:'skill_representation',
   }
 }
