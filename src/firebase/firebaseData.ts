@@ -6,5 +6,6 @@ export default{
   skillKind:{
     collectionName1:'skill_kind',
     collectionName2:'skill_representation',
-  }
+    collectionName3:'skill_web'
+  },
 }

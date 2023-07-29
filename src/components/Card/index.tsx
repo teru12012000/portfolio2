@@ -19,7 +19,9 @@ const Card:FC<Props> = ({url,title,detail}) => {
         />
       </div>
       <h3 className={styles.titleText}>{title}</h3>
-      <p>{detail}</p>
+      <div className={styles.detail}>
+        <p>{detail}</p>
+      </div>
     </div>
   );
 }

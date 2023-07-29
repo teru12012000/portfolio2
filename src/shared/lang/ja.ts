@@ -12,6 +12,12 @@ export default{
     subtitle1:"TECHNICAL AREA",
     subtitle2:"LANGUAGE AND TOOLS",
     link1:"Skills/LanguagesAndTools",
-    buttonTitle1:"もっと詳しく見る"
+    buttonTitle1:"もっと詳しく見る",
+    LanguageAndTools:{
+      linkTitle:"/",
+      websectionTitle:"webアプリ"
+
+    }
+
   }
 }

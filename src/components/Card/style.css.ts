@@ -22,6 +22,13 @@ const styles={
     textAlign:"center",
     paddingTop:"5px",
     paddingBottom:"5px",
+  }),
+  detail:style({
+    overflow:"auto",
+    height:200,
+    '::-webkit-scrollbar':{
+      display:"none",
+    }
   })
 }
 
