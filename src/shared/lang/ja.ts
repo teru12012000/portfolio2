@@ -15,8 +15,9 @@ export default{
     buttonTitle1:"もっと詳しく見る",
     LanguageAndTools:{
       linkTitle:"/",
-      websectionTitle:"webアプリ"
-
+      websectionTitle:"webアプリ",
+      mobileSectionTitle:"mobileアプリ",
+      othersSectionTitle:"その他"
     }
 
   }

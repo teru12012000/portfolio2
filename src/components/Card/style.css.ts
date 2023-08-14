@@ -11,6 +11,12 @@ const styles={
     margin:10,
     display:"inline-block",
     verticalAlign: "top",
+    '@media':{
+      'screen and (max-width:300px)':{
+        margin:0,
+        marginTop:"10px"
+      }
+    }
   }),
   imgZone:style({
     width:"100%",
@@ -25,6 +31,7 @@ const styles={
   }),
   detail:style({
     overflow:"auto",
+    marginBottom:"2px",
     height:200,
     '::-webkit-scrollbar':{
       display:"none",
